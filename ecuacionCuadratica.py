@@ -1,0 +1,7 @@
+a = int(input("Descirba el primero numero: "))
+b = int(input("Descirba el segundo numero: "))
+c = int(input("Descirba el tercer numero: "))
+root1 = (- b + (((b*b)-(4*a*c))**(1/2)))/(2*a)
+root2 = (- b - (((b*b)-(4*a*c))**(1/2)))/(2*a)
+print(root1)
+print(root2)
